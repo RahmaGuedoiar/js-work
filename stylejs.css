@@ -1,0 +1,83 @@
+/* .nav{  
+     display: flex;
+        /* flex-flow: warp row;
+        justify-content: flex-end;
+        justify-items: flex-end;
+        justify-content:flex-end;
+        width:100%; */
+        
+/* 
+   }  */ */
+   .log{
+    display: flex;
+   justify-content: flex-end;
+   flex-flow: wrap row;
+   }
+.shopping{
+    display: flex;
+    flex-flow: warp row;
+    justify-content: flex-start;
+    justify-items: flex-start;
+   }
+
+
+
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    
+    
+}
+.C1{ background-color: aqua;
+    width:34%;
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: center;
+    text-align:center ;
+
+   }
+
+.C2{
+    background-color: red;
+    width:33%;
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: center
+}
+.moi{
+    background-color: pink;
+    width: 50px; 
+    text-align: center;
+
+}
+.C3{
+    background-color: blue;
+    width:33%;
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: center
+    
+}
+
+.LOVE{
+    cursor: pointer;
+    
+}
+.ttal{
+    background-color: palevioletred;
+    width: 100px;
+}
+.container{
+    background-color: burlywood;
+    width: 100%;
+    padding-left: 100px;
+    padding-right: -100px;
+    padding-top: 20px;
+}
+.com{
+    display: flex;
+    flex-flow:column wrap;
+    justify-content: center;
+    text-align:center ;
+}
+
