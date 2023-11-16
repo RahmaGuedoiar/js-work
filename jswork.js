@@ -190,43 +190,43 @@
 
 //V2
 function plus(event){
-console.log(event.target.parentNode.querySelector("h1"))
- var x=event.target.parentNode.querySelector("h1").innerHTML
+console.log(event.target.parentNode.parentNode.parentNode.querySelector("h1"))
+ var x=event.target.parentNode.parentNode.parentNode.querySelector("h1").innerHTML
    console.log(x)
    y=Number(x)+1
    console.log(y)       
 
-   event.target.parentNode.querySelector("h1").innerHTML=y
+   event.target.parentNode.parentNode.parentNode.querySelector("h1").innerHTML=y
    console.log(y)  
-  console.log(event.target.parentNode.querySelector("h2"))
-  var z=event.target.parentNode.querySelector("h2").innerHTML
+  console.log(event.target.parentNode.parentNode.parentNode.querySelector("h2"))
+  var z=event.target.parentNode.parentNode.parentNode.querySelector("h2").innerHTML
   console.log(z)
   w=Number(z)*y
   console.log(w)
-  console.log(event.target.parentNode.querySelector("h3"))
-  event.target.parentNode.querySelector("h3").innerHTML=w
+  console.log(event.target.parentNode.parentNode.parentNode.querySelector("h3"))
+  event.target.parentNode.parentNode.parentNode.querySelector("h3").innerHTML=w
   console.log(event.target.parentNode.querySelector("h4"))
 
  S()
   
 }
 function moin(event){
-  console.log(event.target.parentNode.querySelector("h1"))
-   var x=event.target.parentNode.querySelector("h1").innerHTML
+  console.log(event.target.parentNode.parentNode.parentNode.querySelector("h1"))
+   var x=event.target.parentNode.parentNode.parentNode.querySelector("h1").innerHTML
      console.log(x)
      
      y=Number(x)-1
      console.log(y) 
      if(y>=1){
-     event.target.parentNode.querySelector("h1").innerHTML=y
+     event.target.parentNode.parentNode.parentNode.querySelector("h1").innerHTML=y
      console.log(y) }      
-     console.log(event.target.parentNode.querySelector("h2"))
-  var z=event.target.parentNode.querySelector("h2").innerHTML
+     console.log(event.target.parentNode.parentNode.parentNode.querySelector("h2"))
+  var z=event.target.parentNode.parentNode.parentNode.querySelector("h2").innerHTML
   console.log(z)
   w=Number(z)*y
   console.log(w)
-  console.log(event.target.parentNode.querySelector("h3"))
-  event.target.parentNode.querySelector("h3").innerHTML=w
+  console.log(event.target.parentNode.parentNode.parentNode.querySelector("h3"))
+  event.target.parentNode.parentNode.parentNode.querySelector("h3").innerHTML=w
   S()
   }
   

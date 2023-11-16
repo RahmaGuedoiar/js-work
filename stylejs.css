@@ -25,59 +25,184 @@
 .container{
     display: flex;
     flex-flow: row wrap;
-    
-    
-}
-.C1{ background-color: aqua;
-    width:34%;
-    display: flex;
-    flex-flow:row wrap;
-    justify-content: center;
-    text-align:center ;
-
-   }
-
-.C2{
-    background-color: red;
-    width:33%;
-    display: flex;
-    flex-flow:row wrap;
-    justify-content: center
-}
-.moi{
-    background-color: pink;
-    width: 50px; 
-    text-align: center;
-
-}
-.C3{
-    background-color: blue;
-    width:33%;
-    display: flex;
-    flex-flow:row wrap;
-    justify-content: center
-    
-}
-
-.LOVE{
-    cursor: pointer;
-    
-}
-.ttal{
-    background-color: palevioletred;
-    width: 100px;
-}
-.container{
-    background-color: burlywood;
+  
     width: 100%;
     padding-left: 100px;
     padding-right: -100px;
-    padding-top: 20px;
+    padding-top: 30px;
+    
+    
+    
+    
 }
-.com{
+.C1{ 
+    width:33%;
     display: flex;
     flex-flow:column wrap;
     justify-content: center;
     text-align:center ;
+    border-radius: 10px ;
+    
+    
+   }
+
+.C2{
+    
+    width:33%;
+    display: flex;
+    flex-flow:column wrap;
+    justify-content: center;
+    border-radius: 10px ;
+    
+    
+
+
 }
 
+.C3{
+    
+    width:33%;
+    display: flex;
+    flex-flow:column wrap;
+    justify-content: center;
+    border-radius: 10px ;
+    
+   
+}
+.ig img {
+    border-radius: 10px;
+    border: 2px solid pink ;
+}
+.service{
+    border: 1px solid aliceblue;
+    display: flex;
+    flex-flow: column wrap;
+    border: 1px solid pink;
+    border-radius: 10px;
+    margin-right: 10px;
+    
+   
+}
+.service h5{
+    font-size: 30px;
+    line-height: 1.9;
+    font-weight: 500;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-self: center;
+    margin-top: -30px;
+}
+.LOVE{
+    cursor: pointer;
+    margin-top: -10px;
+    align-self: center;
+}
+
+
+ 
+button{
+    width: 40px;
+    height: 20px;
+    border-radius: 10px;
+    border-color: blanchedalmond;
+    
+    background-color:palevioletred;
+
+}
+
+
+
+.NUM{
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 1000;
+    font-family: Roboto,Arial,sans-serif;
+   
+    
+}
+
+.bo{
+    background-color: pink;
+    width: 70px;
+    height: 60px;
+    padding-top: -5px; ;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    border-radius: 10px;
+    align-content: center;
+    align-self: flex-start;
+    margin-top: -10px;
+    margin-left: 40px;
+   
+}
+.on{
+    display: flex;
+    flex-flow: column wrap;
+    margin-left: -20px;
+    justify-content: center;
+   
+    
+}
+.Q{
+    border: 2px solid #ffe4c4;
+    width: 25px;
+    margin-right: -20px;
+   border-radius: 10px;
+  text-align: center;
+
+   
+   
+    
+}
+.prix{
+    display: flex;
+    flex-flow: row wrap;
+    align-self: flex-end;
+    margin-top: -80px;
+    margin-right: 20px;
+}
+.prix h2{
+    font-size: 20px;
+    line-height: 1.9;
+    font-weight: 500;
+    font-family: Roboto,Arial,sans-serif;
+
+} 
+.prix p {
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 500;
+    font-family: Roboto,Arial,sans-serif;
+    
+}
+.article{
+    display: flex;
+    flex-flow: row wrap;
+    align-self: flex-start;
+    height: 80px;
+   
+   
+
+}
+.article h6 {
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 300;
+    font-family: Roboto,Arial,sans-serif;
+}
+.article h3{
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 300;
+    font-family: Roboto,Arial,sans-serif;
+    align-self: center;
+    margin-left: 5px;
+}
+.ttal{
+    border: 2px solid palevioletred;
+    border-radius: 20px;
+    width: 150px;
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 5px;
+}
